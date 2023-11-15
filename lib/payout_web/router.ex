@@ -20,6 +20,12 @@ defmodule PayoutWeb.Router do
     get "/", PageController, :home
   end
 
+  scope "/login", PayoutWeb do
+    pipe_through :browser
+
+    post "/", LoginController, :login
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", PayoutWeb do
   #   pipe_through :api
