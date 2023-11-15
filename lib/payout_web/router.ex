@@ -20,6 +20,12 @@ defmodule PayoutWeb.Router do
     get "/", PageController, :home
   end
 
+  scope "/welcome", PayoutWeb do
+    pipe_through :browser
+
+    get "/", WelcomeController, :welcome
+  end
+
   scope "/login", PayoutWeb do
     pipe_through :browser
 
