@@ -1,7 +1,7 @@
 defmodule PayoutWeb.LoginController do
   use PayoutWeb, :controller
 
-  def login(conn, %{"_csrf_token" => csrf_token, "username" => username, "password" => password}) do
+  def login(conn, %{"username" => username, "password" => password}) do
     # You can now use username, password, and csrf_token as needed
 
     if username == "test" and password == "test" do

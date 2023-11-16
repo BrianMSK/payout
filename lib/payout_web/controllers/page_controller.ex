@@ -2,14 +2,16 @@ defmodule PayoutWeb.PageController do
   use PayoutWeb, :controller
 
   def home(conn, _params) do
-    # The home page is often custom made,
-    # so skip the default app layout.
-    render(conn, :home, layout: {PayoutWeb.Layouts, :app})
-  end
+    authenticated = get_session(conn, :authenticated) || false
 
-  def welcome(conn, _params) do
-    # The home page is often custom made,
-    # so skip the default app layout.
-    render(conn, :welcome, layout: {PayoutWeb.Layouts, :app})
+    case authenticated do
+      true ->
+        conn
+        |> put_flash(:success, "Welcome back!")
+        |> redirect(to: "/welcome")
+        render(conn, :home, layout: {PayoutWeb.Layouts, :app})
+      false ->
+        render(conn, :home, layout: {PayoutWeb.Layouts, :app})
   end
+end
 end
