@@ -8,7 +8,7 @@
 
 
 <h3 align="center">Payout 2nd round CRUD app</h3>
-
+  <h4 align="center">Funkčná stránka je za reverse proxy <a href="https://payout.uhrik.eu">https://payout.uhrik.eu</a></h4>
   <p align="center">
     Cieľom tejto aplikáci bolo preukázať schopnosť pracovať v novej a cudzej technológií, autor tohto repozitára nikdy nepracoval s MVC based technológiou,
     celková adaptácia na prostredie a nájdenie spôsobov ako riešiť rôzne prekážky trvala cca 2 dni, potom tretí deň bola aplikácia postavená od základov
