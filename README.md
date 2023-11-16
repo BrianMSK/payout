@@ -1,9 +1,11 @@
 <a name="readme-top"></a>
+<div align="center">
+
 
 ![Contributors](https://img.shields.io/github/contributors/brianmsk/payout.svg?style=for-the-badge)
 ![MIT License](https://img.shields.io/github/license/brianmsk/payout.svg?style=for-the-badge)
 
-<div align="center">
+
 
 <h3 align="center">Payout 2nd round CRUD app</h3>
 
@@ -28,7 +30,7 @@
 * ![Elixir](https://img.shields.io/badge/elixir-%234B275F.svg?style=for-the-badge&logo=elixir&logoColor=white)
 * ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 * ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
-* [![ChatGPT][https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white][https://chat.openai.com]
+* ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 * ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
